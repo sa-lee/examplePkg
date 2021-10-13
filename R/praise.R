@@ -4,10 +4,10 @@
 #'
 #' @examples
 #' praise("Babka")
-#'
+#' praise("Emi")
 #' @export
 praise <- function(name) {
   stopifnot(length(name) == 1)
   stopifnot(nchar(name) > 0)
-  paste0("Good job, ", name, "!")
+  stringr::str_c(affirmation(), ", ", name, "!")
 }

@@ -14,5 +14,5 @@ Tell someone they did a good job
 }
 \examples{
 praise("Babka")
-
+praise("Emi")
 }
